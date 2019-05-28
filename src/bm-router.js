@@ -33,7 +33,7 @@ bmRouter
 
     const bookmark = { id: uuid(), title, url, description, rating };
 
-    store.bookmarks.push(bookmark);
+    bookmarks.push(bookmark);
 
     logger.info(`Bookmark with id ${bookmark.id} created`);
     res
